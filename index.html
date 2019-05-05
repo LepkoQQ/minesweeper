@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minesweeper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="default.css" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="controls">
+        New game:
+        <a href="?rows=9&cols=9&mines=10">Beginner</a>
+        <a href="?rows=16&cols=16&mines=40">Intermediate</a>
+        <a href="?rows=16&cols=30&mines=99">Advanced</a>
+      </div>
+      <div id="game-container">
+        <div id="game"></div>
+      </div>
+    </div>
+    <script src="src/main.js" type="module"></script>
+  </body>
+</html>

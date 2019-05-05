@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "import/extensions": ["error", "always"],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "no-plusplus": "off"
+  }
+}

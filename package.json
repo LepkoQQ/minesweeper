@@ -1,0 +1,11 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier-eslint": "^8.8.2"
+  }
+}
