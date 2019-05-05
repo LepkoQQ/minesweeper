@@ -1,6 +1,7 @@
 {
   "name": "minesweeper",
   "version": "1.0.0",
+  "license": "Unlicense",
   "private": true,
   "devDependencies": {
     "eslint": "^5.3.0",
